@@ -94,24 +94,39 @@ Not captured, so I can't map exact fields. It likely asks which grant you're app
 
 ## Page 6 — Getting To Know You
 
-> Each answer is **max 100 words**. The three below match the questions pre-selected in your screenshots. Word counts noted. Two **alternates** (weakness, integrity — reused from your SEA-Up page) follow, in case the dropdowns let you pick those instead.
+> **Lead with your founder page as the answer.** The form explicitly invites a public link ("a video, a song, even a TikTok — simply paste a public link"). Your Cura-branded page answers all three of these — **weakness · most impressive thing · integrity**. Best practice for each box: paste a **short text answer + the link**.
+>
+> **Public link (paste into each answer box):**
+> `https://onsenix12.github.io/cura/founder.html`
+> *(⚠ deploy the site to GitHub Pages first so the link is live — `founder.html` ships with it.)*
+>
+> Set the three dropdowns to **weakness / most impressive thing / integrity** so they match the page. If a dropdown doesn't offer one of these, use the matching **alternate** further below. Every text answer is ≤100 words.
 
-### Q1 — "Describe your main challenges to grow & how you think the BIG Incubation Program might be able to help?"  *(≈96 words)*
-> Cura's biggest challenge is trust and access. Social care is relationship-driven, so winning our first two or three design-partner pilots depends on warm introductions to Social Service Agencies and eldercare operators — and on credibility a solo founder doesn't yet have. The second challenge is navigating Singapore's grant and procurement rails (NCSS Tech-and-GO!, SG Enable) that make adoption affordable. BIG helps with both: mentorship to sharpen go-to-market, an equity-free runway to stay focused, and — most valuable — the SMU-IIE network and reputation that open doors to design partners, advisors, and the domain and technical hires we still need.
+### Q1 — "What is one weakness you have & what steps have you taken to overcome it?"  *(≈90 words)*
+> My weakness is that I say yes to everything. Moving from Indonesia to Japan at 18 taught me every opportunity might be the only one, so I over-committed — present in every room, fully in none. The turning point was my MINDS capstone: I realised the people who needed me most were getting the smallest share of my attention. So I built a filter — does this serve the people I've committed to, or just my curiosity? Cura is the result: one venture, full focus.
+>
+> **Link →** https://onsenix12.github.io/cura/founder.html
 
 ### Q2 — "Describe the single most impressive thing that you have built, created, or achieved outside of your company."  *(≈94 words)*
 > Over six months in 2025 I ran a capstone at MINDS — Singapore's largest organisation for people with intellectual disabilities — while holding a full-time job and a Master's. I ran a needs assessment, built a six-module AI prototype, ran three user-testing sprints and four expert-validation sessions, and documented 62–64% efficiency gains. It became the first IRB-approved, peer-reviewed evidence of AI in Singapore's disability services. But the real finding was the "Augmentation Limit": AI multiplies human competence, it doesn't replace it. That insight is exactly why I'm building Cura around frontline staff — not around the model.
+>
+> **Link →** https://onsenix12.github.io/cura/founder.html
+> **or the article →** https://medium.com/mitb-for-all/what-6-months-of-building-ai-for-minds-taught-me-about-technologys-limits-47aa610148fe
 
-### Q3 — "What would you do when you need to admit your mistakes?"  *(≈95 words)*
-> I admit them early, in the open, and I change course. At MINDS, my starting assumption was that AI could substitute for staff capability. The research proved me wrong — so I published the limitation honestly and redesigned the whole approach around it, instead of defending my original idea. I do the same with weaknesses in what I build: cold-start and facilitator dependency are documented, not hidden. When you serve people who may never audit your work, admitting mistakes isn't optional — it's the only way to stay trustworthy. Owning it fast beats being right slowly.
+### Q3 — "Describe what integrity means to you."  *(≈98 words)*
+> Integrity is what you build when no one is checking. When you build for people with intellectual disabilities, they may never audit your code or negotiate their terms — that asymmetry multiplies responsibility, it doesn't reduce it. So I enforce it in architecture, not just policy: creators own their IP at the database level, mock features are labelled honestly, and safety runs two layers — AI moderation plus human review. Build as if every person you serve will one day see every decision you made when they weren't in the room — and be certain they'd still trust you.
+>
+> **Link →** https://onsenix12.github.io/cura/founder.html
 
 ---
 
-#### Alternate answer — "One weakness & how you're overcoming it"  *(≈90 words)*
-> My weakness is that I say yes to everything. Moving from Indonesia to Japan at 18 taught me every opportunity might be the only one, so I over-committed — present in every room, fully in none. The turning point was my MINDS capstone: I realised the people who needed me most were getting the smallest share of my attention. So I built a filter — does this serve the people I've committed to, or just my curiosity? Cura is the result: one venture, full focus.
+#### Alternates — use only if a dropdown lacks the question above
 
-#### Alternate answer — "What integrity means to you"  *(≈98 words)*
-> Integrity is what you build when no one is checking. When you build for people with intellectual disabilities, they may never audit your code or negotiate their terms — that asymmetry multiplies responsibility, it doesn't reduce it. So I enforce it in architecture, not just policy: creators own their IP at the database level, mock features are labelled honestly, and safety runs two layers — AI moderation plus human review. Build as if every person you serve will one day see every decision you made when they weren't in the room — and be certain they'd still trust you.
+**If Q1 only offers "Describe your main challenges to grow & how BIG can help"**  *(≈96 words)*
+> Cura's biggest challenge is trust and access. Social care is relationship-driven, so winning our first two or three design-partner pilots depends on warm introductions to Social Service Agencies and eldercare operators — and on credibility a solo founder doesn't yet have. The second challenge is navigating Singapore's grant and procurement rails (NCSS Tech-and-GO!, SG Enable) that make adoption affordable. BIG helps with both: mentorship to sharpen go-to-market, an equity-free runway to stay focused, and — most valuable — the SMU-IIE network and reputation that open doors to design partners, advisors, and the domain and technical hires we still need.
+
+**If Q3 only offers "What would you do when you need to admit your mistakes?"**  *(≈95 words)*
+> I admit them early, in the open, and I change course. At MINDS, my starting assumption was that AI could substitute for staff capability. The research proved me wrong — so I published the limitation honestly and redesigned the whole approach around it, instead of defending my original idea. I do the same with weaknesses in what I build: cold-start and facilitator dependency are documented, not hidden. When you serve people who may never audit your work, admitting mistakes isn't optional — it's the only way to stay trustworthy. Owning it fast beats being right slowly.
 
 ---
 
@@ -131,7 +146,8 @@ Not captured, so I can't map exact fields. It likely asks which grant you're app
 ---
 
 ## Before you submit — checklist
-1. **⚠ Deploy** the Cura site to GitHub Pages so the Website link is live.
+1. **⚠ Deploy** the Cura site to GitHub Pages — this makes both the Website link (`/cura/`) and the founder page (`/cura/founder.html`) live.
 2. **Upload** `Cura_Pitch_Deck.pdf` on Page 2.
-3. **Confirm the ⚠ items:** brand (Cura vs SEA-Up), dropdown selections, IIE participation, Q4/Q5, and personal details (Page 1).
-4. Sanity-check the MINDS figures (62–64%, N=6, "first published evidence") are stated exactly as in your paper.
+3. **Page 6:** paste `https://onsenix12.github.io/cura/founder.html` into each answer box (with the short text), and set the dropdowns to weakness / most impressive thing / integrity.
+4. **Confirm the ⚠ items:** brand (Cura vs SEA-Up), dropdown selections, IIE participation, Q4/Q5, and personal details (Page 1).
+5. Sanity-check the MINDS figures (62–64%, N=6, "first published evidence") are stated exactly as in your paper.

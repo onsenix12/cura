@@ -6,13 +6,17 @@ Built on the Cura design system (`design-system/`) — Material 3 re-seeded warm
 ## Structure
 ```
 cura-website/
-  index.html
+  index.html                 # the main one-pager  →  https://onsenix12.github.io/cura/
+  founder.html               # "Getting to know Avi" Q&A  →  https://onsenix12.github.io/cura/founder.html
   assets/css/tokens.css      # design tokens (single source of truth)
   assets/css/styles.css      # page styles
-  assets/js/main.js          # parallax hero, reveals, nav, theme toggle
+  assets/js/main.js          # reveals, nav, theme toggle
   assets/images/             # optimised imagery
   design-system/             # DESIGN_SYSTEM.md + design-tokens.json
 ```
+
+`founder.html` is self-contained (fonts from Google, no other dependencies) — paste
+`https://onsenix12.github.io/cura/founder.html` into the BIG form's "Getting to Know You" answer boxes.
 
 ## Deploy to GitHub Pages (repo: onsenix12/cura)
 Pick ONE:
