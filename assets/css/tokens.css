@@ -1,0 +1,138 @@
+/* =====================================================================
+   CURA DESIGN SYSTEM — tokens.css
+   Material Design 3 token roles, re-seeded "warm & human" (Coral Care).
+   Single source of truth for color, type, shape, spacing, elevation.
+   Role names mirror the Figma Material 3 kit so values map 1:1.
+   ===================================================================== */
+
+/* ---- Type: warm humanist pairing (Fraunces display + Plus Jakarta Sans) ---- */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ---------- COLOR · LIGHT (default) ---------- */
+  --md-sys-color-primary: #B04A2E;
+  --md-sys-color-on-primary: #FFFFFF;
+  --md-sys-color-primary-container: #FFDBD1;
+  --md-sys-color-on-primary-container: #3B0A00;
+  --md-sys-color-secondary: #77526A;
+  --md-sys-color-on-secondary: #FFFFFF;
+  --md-sys-color-secondary-container: #FFD8EC;
+  --md-sys-color-on-secondary-container: #2E1122;
+  --md-sys-color-tertiary: #895A16;
+  --md-sys-color-on-tertiary: #FFFFFF;
+  --md-sys-color-tertiary-container: #FFDCBB;
+  --md-sys-color-on-tertiary-container: #2C1600;
+  --md-sys-color-error: #BA1A1A;
+  --md-sys-color-on-error: #FFFFFF;
+  --md-sys-color-error-container: #FFDAD6;
+  --md-sys-color-on-error-container: #410002;
+  --md-sys-color-background: #FCF4F0;
+  --md-sys-color-on-background: #2B2320;
+  --md-sys-color-surface: #FCF4F0;
+  --md-sys-color-on-surface: #2B2320;
+  --md-sys-color-surface-variant: #F1E4DD;
+  --md-sys-color-on-surface-variant: #57453F;
+  --md-sys-color-outline: #877069;
+  --md-sys-color-outline-variant: #D8C2B8;
+  --md-sys-color-surface-container-lowest: #FFFFFF;
+  --md-sys-color-surface-container-low: #FDF1EA;
+  --md-sys-color-surface-container: #F7EBE4;
+  --md-sys-color-surface-container-high: #F1E5DE;
+  --md-sys-color-surface-container-highest: #EBDFD8;
+  --md-sys-color-inverse-surface: #3A2F2B;
+  --md-sys-color-inverse-on-surface: #FFEDE7;
+  --md-sys-color-inverse-primary: #FFB4A1;
+  --md-sys-color-shadow: #000000;
+  --md-sys-color-scrim: #000000;
+
+  /* ---------- BRAND (beyond strict M3) ---------- */
+  --cura-coral-bright: #E0674C;   /* hero fills / illustration only, not small text */
+  --cura-cream: #FCF4F0;
+  --cura-ink: #2B2320;
+
+  /* ---------- TYPOGRAPHY ---------- */
+  --md-ref-typeface-brand: "Fraunces", Georgia, "Times New Roman", serif;
+  --md-ref-typeface-plain: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* ---------- SHAPE ---------- */
+  --md-sys-shape-corner-none: 0px;
+  --md-sys-shape-corner-extra-small: 4px;
+  --md-sys-shape-corner-small: 8px;
+  --md-sys-shape-corner-medium: 12px;
+  --md-sys-shape-corner-large: 16px;
+  --md-sys-shape-corner-extra-large: 28px;
+  --md-sys-shape-corner-full: 999px;
+
+  /* ---------- SPACING (4px base) ---------- */
+  --cura-space-1: 4px;   --cura-space-2: 8px;   --cura-space-3: 12px;
+  --cura-space-4: 16px;  --cura-space-6: 24px;  --cura-space-8: 32px;
+  --cura-space-12: 48px; --cura-space-16: 64px; --cura-space-24: 96px;
+  --cura-space-32: 128px;
+
+  /* ---------- ELEVATION (warm-tinted shadows) ---------- */
+  --md-sys-elevation-level0: none;
+  --md-sys-elevation-level1: 0 1px 2px rgba(60,30,20,.10), 0 1px 3px 1px rgba(60,30,20,.07);
+  --md-sys-elevation-level2: 0 1px 2px rgba(60,30,20,.10), 0 2px 6px 2px rgba(60,30,20,.07);
+  --md-sys-elevation-level3: 0 1px 3px rgba(60,30,20,.11), 0 4px 8px 3px rgba(60,30,20,.07);
+  --md-sys-elevation-level4: 0 2px 3px rgba(60,30,20,.11), 0 6px 10px 4px rgba(60,30,20,.07);
+  --md-sys-elevation-level5: 0 4px 4px rgba(60,30,20,.11), 0 8px 12px 6px rgba(60,30,20,.07);
+
+  /* ---------- MOTION ---------- */
+  --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --md-sys-motion-duration-short: 150ms;
+  --md-sys-motion-duration-medium: 300ms;
+  --md-sys-motion-duration-long: 500ms;
+}
+
+/* ---------- COLOR · DARK ---------- */
+[data-theme="dark"] {
+  --md-sys-color-primary: #FFB4A1;
+  --md-sys-color-on-primary: #5E1B0B;
+  --md-sys-color-primary-container: #83341E;
+  --md-sys-color-on-primary-container: #FFDBD1;
+  --md-sys-color-secondary: #E5B9D5;
+  --md-sys-color-on-secondary: #452639;
+  --md-sys-color-secondary-container: #5E3B51;
+  --md-sys-color-on-secondary-container: #FFD8EC;
+  --md-sys-color-tertiary: #FFB877;
+  --md-sys-color-on-tertiary: #472A00;
+  --md-sys-color-tertiary-container: #6A4100;
+  --md-sys-color-on-tertiary-container: #FFDCBB;
+  --md-sys-color-error: #FFB4AB;
+  --md-sys-color-on-error: #690005;
+  --md-sys-color-error-container: #93000A;
+  --md-sys-color-on-error-container: #FFDAD6;
+  --md-sys-color-background: #1A1210;
+  --md-sys-color-on-background: #F0DFD8;
+  --md-sys-color-surface: #1A1210;
+  --md-sys-color-on-surface: #F0DFD8;
+  --md-sys-color-surface-variant: #57453F;
+  --md-sys-color-on-surface-variant: #D8C2B8;
+  --md-sys-color-outline: #A08D85;
+  --md-sys-color-outline-variant: #57453F;
+  --md-sys-color-surface-container-lowest: #140D0B;
+  --md-sys-color-surface-container-low: #231916;
+  --md-sys-color-surface-container: #271D1A;
+  --md-sys-color-surface-container-high: #322724;
+  --md-sys-color-surface-container-highest: #3D322E;
+  --md-sys-color-inverse-surface: #F0DFD8;
+  --md-sys-color-inverse-on-surface: #3A2F2B;
+  --md-sys-color-inverse-primary: #B04A2E;
+}
+
+/* ===== Type scale utility classes (Material 3 roles) ===== */
+.md-display-large  { font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 3.5625rem; line-height: 4rem;   letter-spacing: -0.25px; }
+.md-display-medium { font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 2.8125rem; line-height: 3.25rem; }
+.md-display-small  { font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 2.25rem;   line-height: 2.75rem; }
+.md-headline-large { font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 2rem;      line-height: 2.5rem; }
+.md-headline-medium{ font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 1.75rem;   line-height: 2.25rem; }
+.md-headline-small { font-family: var(--md-ref-typeface-brand); font-weight: 500; font-size: 1.5rem;    line-height: 2rem; }
+.md-title-large    { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 1.375rem;  line-height: 1.75rem; }
+.md-title-medium   { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 1rem;      line-height: 1.5rem;  letter-spacing: 0.15px; }
+.md-title-small    { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 0.875rem;  line-height: 1.25rem; letter-spacing: 0.1px; }
+.md-body-large     { font-family: var(--md-ref-typeface-plain); font-weight: 400; font-size: 1rem;      line-height: 1.5rem;  letter-spacing: 0.5px; }
+.md-body-medium    { font-family: var(--md-ref-typeface-plain); font-weight: 400; font-size: 0.875rem;  line-height: 1.25rem; letter-spacing: 0.25px; }
+.md-body-small     { font-family: var(--md-ref-typeface-plain); font-weight: 400; font-size: 0.75rem;   line-height: 1rem;    letter-spacing: 0.4px; }
+.md-label-large    { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 0.875rem;  line-height: 1.25rem; letter-spacing: 0.1px; }
+.md-label-medium   { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 0.75rem;   line-height: 1rem;    letter-spacing: 0.5px; }
+.md-label-small    { font-family: var(--md-ref-typeface-plain); font-weight: 600; font-size: 0.6875rem; line-height: 1rem;    letter-spacing: 0.5px; }

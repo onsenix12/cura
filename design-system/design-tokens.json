@@ -1,0 +1,191 @@
+{
+  "$meta": {
+    "name": "Cura Design System",
+    "version": "1.0.0",
+    "basis": "Material Design 3 (token roles preserved) — re-seeded warm & human",
+    "direction": "Coral Care — Coral primary + Warm Plum secondary + Soft Amber tertiary",
+    "seeds": {
+      "primary": "#E0674C",
+      "secondary": "#7A5A6E",
+      "tertiary": "#E3A15A",
+      "neutral": "#8E8078",
+      "error": "#BA1A1A"
+    },
+    "notes": "Role names mirror the Material 3 kit (M3/sys/... , Schemes/...). Re-map these values onto the same variables in Figma to warm the kit."
+  },
+
+  "ref": {
+    "palette": {
+      "primary": {
+        "0": "#000000", "10": "#3B0A00", "20": "#5E1B0B", "30": "#83341E",
+        "40": "#B04A2E", "50": "#D25E3F", "60": "#E0674C", "70": "#F3856B",
+        "80": "#FFB4A1", "90": "#FFDBD1", "95": "#FFEDE8", "99": "#FFFBFF", "100": "#FFFFFF"
+      },
+      "secondary": {
+        "0": "#000000", "10": "#2E1122", "20": "#452639", "30": "#5E3B51",
+        "40": "#77526A", "50": "#916B84", "60": "#AC849E", "70": "#C89EB9",
+        "80": "#E5B9D5", "90": "#FFD8EC", "95": "#FFECF4", "99": "#FFFBFF", "100": "#FFFFFF"
+      },
+      "tertiary": {
+        "0": "#000000", "10": "#2C1600", "20": "#472A00", "30": "#6A4100",
+        "40": "#895A16", "50": "#A87233", "60": "#C68B48", "70": "#E3A15A",
+        "80": "#FFB877", "90": "#FFDCBB", "95": "#FFEEDD", "99": "#FFFBFF", "100": "#FFFFFF"
+      },
+      "neutral": {
+        "0": "#000000", "10": "#2B2320", "20": "#423734", "30": "#5A4E49",
+        "40": "#746760", "50": "#8E8078", "60": "#A99A91", "70": "#C5B4AB",
+        "80": "#E2D0C6", "90": "#F4E9E2", "95": "#FCF1EB", "98": "#FEF8F4",
+        "99": "#FFFBFF", "100": "#FFFFFF"
+      },
+      "neutral_variant": {
+        "10": "#2A211D", "20": "#413732", "30": "#584D47", "40": "#71645D",
+        "50": "#8B7D75", "60": "#A6968D", "70": "#C2B1A7", "80": "#D8C2B8",
+        "90": "#F1E4DD", "95": "#FFEDE6", "99": "#FFFBFF"
+      },
+      "error": {
+        "10": "#410002", "20": "#690005", "30": "#93000A", "40": "#BA1A1A",
+        "80": "#FFB4AB", "90": "#FFDAD6", "100": "#FFFFFF"
+      }
+    }
+  },
+
+  "sys": {
+    "color": {
+      "light": {
+        "primary": "#B04A2E",
+        "on-primary": "#FFFFFF",
+        "primary-container": "#FFDBD1",
+        "on-primary-container": "#3B0A00",
+        "secondary": "#77526A",
+        "on-secondary": "#FFFFFF",
+        "secondary-container": "#FFD8EC",
+        "on-secondary-container": "#2E1122",
+        "tertiary": "#895A16",
+        "on-tertiary": "#FFFFFF",
+        "tertiary-container": "#FFDCBB",
+        "on-tertiary-container": "#2C1600",
+        "error": "#BA1A1A",
+        "on-error": "#FFFFFF",
+        "error-container": "#FFDAD6",
+        "on-error-container": "#410002",
+        "background": "#FCF4F0",
+        "on-background": "#2B2320",
+        "surface": "#FCF4F0",
+        "on-surface": "#2B2320",
+        "surface-variant": "#F1E4DD",
+        "on-surface-variant": "#57453F",
+        "outline": "#877069",
+        "outline-variant": "#D8C2B8",
+        "surface-container-lowest": "#FFFFFF",
+        "surface-container-low": "#FDF1EA",
+        "surface-container": "#F7EBE4",
+        "surface-container-high": "#F1E5DE",
+        "surface-container-highest": "#EBDFD8",
+        "inverse-surface": "#3A2F2B",
+        "inverse-on-surface": "#FFEDE7",
+        "inverse-primary": "#FFB4A1",
+        "shadow": "#000000",
+        "scrim": "#000000"
+      },
+      "dark": {
+        "primary": "#FFB4A1",
+        "on-primary": "#5E1B0B",
+        "primary-container": "#83341E",
+        "on-primary-container": "#FFDBD1",
+        "secondary": "#E5B9D5",
+        "on-secondary": "#452639",
+        "secondary-container": "#5E3B51",
+        "on-secondary-container": "#FFD8EC",
+        "tertiary": "#FFB877",
+        "on-tertiary": "#472A00",
+        "tertiary-container": "#6A4100",
+        "on-tertiary-container": "#FFDCBB",
+        "error": "#FFB4AB",
+        "on-error": "#690005",
+        "error-container": "#93000A",
+        "on-error-container": "#FFDAD6",
+        "background": "#1A1210",
+        "on-background": "#F0DFD8",
+        "surface": "#1A1210",
+        "on-surface": "#F0DFD8",
+        "surface-variant": "#57453F",
+        "on-surface-variant": "#D8C2B8",
+        "outline": "#A08D85",
+        "outline-variant": "#57453F",
+        "surface-container-lowest": "#140D0B",
+        "surface-container-low": "#231916",
+        "surface-container": "#271D1A",
+        "surface-container-high": "#322724",
+        "surface-container-highest": "#3D322E",
+        "inverse-surface": "#F0DFD8",
+        "inverse-on-surface": "#3A2F2B",
+        "inverse-primary": "#B04A2E",
+        "shadow": "#000000",
+        "scrim": "#000000"
+      }
+    },
+    "brand": {
+      "coral-bright": "#E0674C",
+      "coral-bright-usage": "Large display fills, hero shapes, illustration accents. NOT for small text on light surfaces (fails contrast).",
+      "cream": "#FCF4F0",
+      "ink": "#2B2320"
+    },
+    "typography": {
+      "font-brand": "\"Fraunces\", Georgia, \"Times New Roman\", serif",
+      "font-plain": "\"Plus Jakarta Sans\", \"Segoe UI\", system-ui, -apple-system, sans-serif",
+      "scale": {
+        "display-large":  {"font": "brand", "size": 57, "line": 64, "weight": 500, "tracking": "-0.25px"},
+        "display-medium": {"font": "brand", "size": 45, "line": 52, "weight": 500, "tracking": "0"},
+        "display-small":  {"font": "brand", "size": 36, "line": 44, "weight": 500, "tracking": "0"},
+        "headline-large": {"font": "brand", "size": 32, "line": 40, "weight": 500, "tracking": "0"},
+        "headline-medium":{"font": "brand", "size": 28, "line": 36, "weight": 500, "tracking": "0"},
+        "headline-small": {"font": "brand", "size": 24, "line": 32, "weight": 500, "tracking": "0"},
+        "title-large":    {"font": "plain", "size": 22, "line": 28, "weight": 600, "tracking": "0"},
+        "title-medium":   {"font": "plain", "size": 16, "line": 24, "weight": 600, "tracking": "0.15px"},
+        "title-small":    {"font": "plain", "size": 14, "line": 20, "weight": 600, "tracking": "0.1px"},
+        "body-large":     {"font": "plain", "size": 16, "line": 24, "weight": 400, "tracking": "0.5px"},
+        "body-medium":    {"font": "plain", "size": 14, "line": 20, "weight": 400, "tracking": "0.25px"},
+        "body-small":     {"font": "plain", "size": 12, "line": 16, "weight": 400, "tracking": "0.4px"},
+        "label-large":    {"font": "plain", "size": 14, "line": 20, "weight": 600, "tracking": "0.1px"},
+        "label-medium":   {"font": "plain", "size": 12, "line": 16, "weight": 600, "tracking": "0.5px"},
+        "label-small":    {"font": "plain", "size": 11, "line": 16, "weight": 600, "tracking": "0.5px"}
+      }
+    },
+    "shape": {
+      "corner-none": "0px",
+      "corner-extra-small": "4px",
+      "corner-small": "8px",
+      "corner-medium": "12px",
+      "corner-large": "16px",
+      "corner-extra-large": "28px",
+      "corner-full": "999px"
+    },
+    "spacing": {
+      "0": "0px", "1": "4px", "2": "8px", "3": "12px", "4": "16px",
+      "6": "24px", "8": "32px", "12": "48px", "16": "64px", "24": "96px", "32": "128px"
+    },
+    "elevation": {
+      "level0": "none",
+      "level1": "0 1px 2px rgba(60,30,20,0.10), 0 1px 3px 1px rgba(60,30,20,0.07)",
+      "level2": "0 1px 2px rgba(60,30,20,0.10), 0 2px 6px 2px rgba(60,30,20,0.07)",
+      "level3": "0 1px 3px rgba(60,30,20,0.11), 0 4px 8px 3px rgba(60,30,20,0.07)",
+      "level4": "0 2px 3px rgba(60,30,20,0.11), 0 6px 10px 4px rgba(60,30,20,0.07)",
+      "level5": "0 4px 4px rgba(60,30,20,0.11), 0 8px 12px 6px rgba(60,30,20,0.07)"
+    },
+    "state": {
+      "hover-opacity": 0.08,
+      "focus-opacity": 0.10,
+      "pressed-opacity": 0.10,
+      "dragged-opacity": 0.16,
+      "disabled-content-opacity": 0.38,
+      "disabled-container-opacity": 0.12
+    },
+    "motion": {
+      "easing-standard": "cubic-bezier(0.2, 0, 0, 1)",
+      "easing-emphasized": "cubic-bezier(0.2, 0, 0, 1)",
+      "duration-short": "150ms",
+      "duration-medium": "300ms",
+      "duration-long": "500ms"
+    }
+  }
+}
